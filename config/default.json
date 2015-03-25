@@ -1,0 +1,16 @@
+{
+  "logger": {
+    "level": "debug",
+    "console":{
+      "enabled":true,
+      "level":"debug"
+    },
+    "udp":{
+      "enabled":true,
+      "level":"debug",
+      "port":"8899",
+      "host":"localhost",
+      "app_name":"API Load Testing"
+    }
+  }
+}
